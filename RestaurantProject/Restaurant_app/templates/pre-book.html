@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+<body style="background-image: url('background.webp'); background-repeat: no-repeat; background-size: cover;">
+    <form action="" method="get" style="border: 1px solid black; border-radius: 100px;">
+        <h1 style="color: white; text-align: center; font-size: 50px; margin-top: 50px;">Pre-Book Your Table</h1>
+        <div style="color: white; font-size: 20px; margin-left: 500px; margin-top: 50px;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br><br>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required><br><br>
+
+            <input type="submit" value="Pre-Book">
+        </div>
+    </form>
+
+</body>
+</html>
